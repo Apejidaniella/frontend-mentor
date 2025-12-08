@@ -1,0 +1,21 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    max-width: 1440px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 22rem;
+    height: 31rem;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    margin: 5% auto;
+}
+
+.hero-img{
+    background-size: contain;
+}
