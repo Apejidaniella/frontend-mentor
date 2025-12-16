@@ -1,0 +1,144 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+   font-family: 'Karla';
+  src: url('fonts/Karla-VariableFont-opsz,wght.ttf') format('truetype'); 
+  
+}
+
+:root {
+    --teal-500: hsl(179, 62%, 43%);
+    --teal-600: hsl(179, 58%, 40%);
+    --green-400: hsl(71, 73%, 54%);
+    --teal-100:  hsl(204, 43%, 93%);
+    --gray-500:  hsl(218, 22%, 67%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--teal-100);
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    max-width: 600px;
+    height: 500px;
+    box-shadow: 8px 8px 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+.community, .subscription, .why-us {
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.community {
+  grid-column: span 2;
+  background-color: white;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.title {
+    color: var(--teal-500);
+    font-weight: 600;
+    font-size: 21px;
+    padding-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--green-400);
+    padding-bottom: 0.5rem;
+}
+
+.community p {
+  color: var(--gray-500);
+}
+
+
+
+.card-title {
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+
+.card-price {
+  font-size: 26px;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.per-month {
+  font-size: 12px;
+  color: var(--gray-500);
+  font-weight: 400;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--green-400);
+  font-weight: 700;
+  color: var(--teal-100);
+  margin-top: 2rem;
+}
+
+.subscription {
+    background-color: var(--teal-600);
+    color: var(--teal-100);
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    
+}
+
+.why-us {
+    background-color: var(--teal-500);
+    color: var(--teal-100);
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+ 
+ @media (max-width: 767px) {
+  
+  body {
+    height: initial;
+    display: block;
+    margin: 5rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .card {
+    display: block;
+    height: auto;
+  }
+
+  .subscription {
+      border-bottom-left-radius: 0;
+  }
+
+  .why-us {
+    border-bottom-left-radius: 15px;
+  }
+
+ }
