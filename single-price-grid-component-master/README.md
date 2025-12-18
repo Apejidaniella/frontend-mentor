@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop view](./screenshots/desktop%20view.png)
-![mobile view](./screenshots/mobile%20view.png)
+![desktop view](./images/screenshots/desktop-view.png)
+![mobile view](./images/screenshots/mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-7u673Prpmt)
+- Live Site URL: [Here](https://frontend-mentor-cmkc.vercel.app/)
 
 ## My process
 
